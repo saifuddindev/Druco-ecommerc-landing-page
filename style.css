@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+    font-family: 'Oxanium', cursive;
+}
+
+/*----Navbar Style----*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7a800;
+    align-items: center;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.box ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-right: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Oxanium', cursive;
+}
+
+.offer-text {
+    color: white;
+    font-family: 'Oxanium', cursive;
+
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dropdown select:focus {
+    outline: none;
+    border-color: #888;
+}
+
+.dropdown::after {
+    content: '\25BE';
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.dropdown::after {
+    font-size: 14px;
+    color: #888;
+}
+
+.dropdown select::-ms-expand {
+    display: none;
+}
+
+/* Additional styling (optional) */
+.dropdown {
+    width: 200px;
+}
+
+.dropdown select {
+    width: 100%;
+}
+
+/* Styling when the dropdown is open */
+.dropdown select:focus~ul {
+    display: block;
+}
+
+.dropdown ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.dropdown li {
+    list-style: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.dropdown li:hover {
+    background: #f2f2f2;
+}
+
+.dropdown-2 {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-2 select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dropdown-2 select:focus {
+    outline: none;
+    border-color: #888;
+}
+
+.dropdown-2::after {
+    content: '\25BE';
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.dropdown-2::after {
+    font-size: 14px;
+    color: #888;
+}
+
+.dropdown-2 select::-ms-expand {
+    display: none;
+}
+
+.dropdown-2 {
+    width: 150px;
+}
+
+.dropdown-2 select {
+    width: 100%;
+}
+
+/* Styling when the dropdown is open */
+.dropdown-2 select:focus~ul {
+    display: block;
+}
+
+.dropdown-2 ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.dropdown-2 li {
+    list-style: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.dropdown-2 li:hover {
+    background: #f2f2f2;
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        display: block;
+        background-color: #f7a800;
+        margin-top: 0;
+        text-align: center;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .box ul {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+    .navbar {
+        display: block;
+        background-color: #f7a800;
+        margin-top: 0;
+        text-align: center;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .box ul {
+        justify-content: center;
+    }
+}
