@@ -241,14 +241,18 @@ ul li a {
 
 .dropdown-3 select {
     padding: 5px;
-    margin-right: 5px;
+    margin-right: 20px;
     width: auto;
     height: 30px;
+    border: none;
 }
 
 .dropdown-3 input[type="text"] {
     width: auto;
     height: 25px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 2px;
 }
 
 .icons i {
