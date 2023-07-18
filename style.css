@@ -214,3 +214,45 @@ ul li a {
         justify-content: center;
     }
 }
+
+/*---------Logo Header Start---------*/
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3em;
+    padding-right: 3em;
+    align-items: center;
+}
+
+.logo,
+.dropdown-3,
+.icons {
+    padding: 10px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.dropdown-3 {
+    display: flex;
+}
+
+.dropdown-3 select {
+    padding: 5px;
+    margin-right: 5px;
+    width: auto;
+    height: 30px;
+}
+
+.dropdown-3 input[type="text"] {
+    width: auto;
+    height: 25px;
+}
+
+.icons i {
+    margin-right: 10px;
+}
+
+/*---------Logo Header End---------*/
