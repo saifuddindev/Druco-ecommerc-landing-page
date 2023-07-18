@@ -259,4 +259,70 @@ ul li a {
     margin-right: 10px;
 }
 
+@media (max-width: 576px) {
+    .dropdown-3 input[type="text"] {
+        width: 50px;
+        height: 25px;
+    }
+
+    .dropdown-3 select {
+        margin-right: 0;
+        width: 100px;
+    }
+
+}
+
+
+
+
 /*---------Logo Header End---------*/
+
+
+/*-----------------------------Nav bar ---------------------------*/
+nav {
+    background-color: #333;
+    color: #fff;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: #555;
+    border-radius: 2px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #797979;
+    padding: 10px;
+}
+
+.nav-dropdown:hover .dropdown-menu {
+    display: inline-block;
+}
+
+@media (max-width: 576px) {
+    nav {
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
