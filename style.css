@@ -326,3 +326,103 @@ a:hover {
         padding-bottom: 5px;
     }
 }
+
+/*---------------Body CSS Start From Here----------------------*/
+.card-image {
+    background-image: url('images/highlights.jpeg');
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+
+.card-content {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.highlight-hover:hover {
+    color: #996900;
+}
+
+p {
+    font-size: 16px;
+}
+
+.button-container {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0 0 10px 10px;
+}
+
+.shop-now-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f7a800;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.card-image-1 {
+    background-image: url('images/wheels.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+
+.card-image-2 {
+    background-image: url('images/steering.jpeg');
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+
+.card-image-3 {
+    background-image: url('images/engine-oil.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+
+.body-cards {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+}
