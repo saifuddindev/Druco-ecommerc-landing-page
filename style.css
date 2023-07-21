@@ -425,4 +425,46 @@ p {
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 5px;
+    justify-content: center;
+    align-items: center;
 }
+
+@media (max-width: 576px) {
+
+    .body-cards {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-image,
+    .card-image-1,
+    .card-image-2,
+    .card-image-3 {
+        width: 400px;
+        height: 500px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+    .body-cards {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .body-cards {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/*---------------Body CSS End Here----------------------*/
