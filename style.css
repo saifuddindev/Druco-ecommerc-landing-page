@@ -468,3 +468,48 @@ p {
 }
 
 /*---------------Body CSS End Here----------------------*/
+
+
+/*---------------Shipping------------------------------*/
+
+.shipping-container {
+    display: flex;
+    justify-content: space-around;
+    border: 1px dotted #f7a800;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.sticker {
+    display: flex;
+    align-items: center;
+}
+
+.sticker img {
+    width: 100px;
+    height: 100px;
+}
+
+.sticker h3 {
+    margin: 5px 10px;
+}
+
+.sticker-content {
+    padding-left: 15px;
+}
+
+@media (max-width: 576px) {
+    .shipping-container {
+        display: inline-block;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .sticker-content {
+        text-align: left;
+    }
+}
+
+/*---------------------------------------Shipping End----------------------------------------*/
